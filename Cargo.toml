@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-dependency-pinning"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS dependency-pinning component - package_infra"
+
+[lib]
+name = "dependency_pinning"
+path = "src/lib.rs"
